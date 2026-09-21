@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | VentureOut Travel & Tourism</title>
+    <meta name="description" content="Learn about VentureOut's mission, expert guide team, and passion for creating sustainable, eco-friendly luxury travel experiences.">
+    <meta name="keywords" content="about ventureout, travel agency story, tour guides, expedition team">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <!-- Custom CSS System -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-compass-fill"></i>
+                <span>VentureOut</span>
+            </a>
+            
+            <div class="d-flex align-items-center gap-2 order-lg-3 me-2 me-lg-0">
+                <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light/Dark Mode">
+                    <i class="bi bi-moon-stars-fill"></i>
+                </button>
+                <button class="rtl-toggle-btn" id="rtlToggleBtn" title="Toggle RTL Mode">RTL</button>
+                <a href="signup.html" class="btn btn-primary-custom d-none d-sm-inline-flex">Signup</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Offcanvas Menu -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header border-bottom">
+                    <a href="index.html" class="navbar-brand mb-0 text-decoration-none" id="offcanvasNavbarLabel"><i class="bi bi-compass-fill"></i><span>VentureOut</span></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-none mt-3">
+                        <a href="signup.html" class="btn btn-primary-custom">Signup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header Banner -->
+    <section class="py-5 bg-secondary-custom text-white text-center position-relative" style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.4) 0%, rgba(13, 148, 136, 0.4) 100%), url('https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;">
+        <div class="container py-4">
+            <h1 class="font-heading display-4 text-white">About VentureOut</h1>
+            <p class="lead max-w-600 mx-auto text-light">Crafting transformative journeys, eco-conscious expeditions, and lifelong memories since 2011.</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white opacity-75">Home</a></li>
+                    <li class="breadcrumb-item active text-tertiary-custom" aria-current="page">About Us</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <span class="text-primary-custom fw-bold text-uppercase">Our Story</span>
+                    <h2 class="font-heading display-6 mb-3">Redefining How The World Travels</h2>
+                    <p class="text-secondary mb-3">VentureOut was born out of a simple belief: travel should be more than just visiting places; it should be an enriching soul connection with cultures, landscapes, and wildlife.</p>
+                    <p class="text-muted small mb-4">Founded by veteran mountain explorer Alex Vance, our agency has grown from a local trekking outfit into an award-winning global operator connecting over 50,000 travelers to pristine locations in 70+ nations.</p>
+                    
+                    <div class="row g-3 pt-2">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="feature-icon mb-0" style="width:50px; height:50px; font-size:1.2rem;"><i class="bi bi-tree"></i></div>
+                                <div>
+                                    <h6 class="fw-bold mb-0">100% Eco-Friendly</h6>
+                                    <small class="text-muted">Zero carbon footprint</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="feature-icon mb-0" style="width:50px; height:50px; font-size:1.2rem;"><i class="bi bi-award"></i></div>
+                                <div>
+                                    <h6 class="fw-bold mb-0">Award Winning</h6>
+                                    <small class="text-muted">Top Agency 2025</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1000&q=80" alt="VentureOut Hikers" class="img-fluid rounded-4 shadow-lg">
+                        <div class="position-absolute bottom-0 start-0 bg-surface p-3 rounded-3 shadow border m-3 d-flex align-items-center gap-3" style="max-width: 280px;">
+                            <i class="bi bi-patch-check-fill display-6 text-primary-custom"></i>
+                            <div>
+                                <h6 class="fw-bold mb-0">Certified Operator</h6>
+                                <small class="text-muted">World Tourism Board</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Values -->
+    <section class="py-5 bg-surface border-top border-bottom">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <span class="text-primary-custom fw-bold text-uppercase">Our Purpose</span>
+                    <h2 class="font-heading display-6 mb-3">Driven By Curiosity & Conservation</h2>
+                    <p class="text-secondary mb-4">Every journey we design adheres to strict ethical standards. We empower local indigenous communities, fund local conservation projects, and preserve fragile ecosystems.</p>
+                    <ul class="list-unstyled d-flex flex-column gap-3">
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="bi bi-check-circle-fill text-primary-custom mt-1"></i>
+                            <div>
+                                <strong>Community First:</strong> 80% of trip costs stay directly within destination communities.
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="bi bi-check-circle-fill text-primary-custom mt-1"></i>
+                            <div>
+                                <strong>Small Group Sizes:</strong> Intimate tour groups capped at 12 participants for personalized care.
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="bi bi-check-circle-fill text-primary-custom mt-1"></i>
+                            <div>
+                                <strong>Safety Protocol:</strong> Wilderness First Responder certified guides on all mountain expeditions.
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="bi bi-check-circle-fill text-primary-custom mt-1"></i>
+                            <div>
+                                <strong>Driven By Curiosity:</strong> We constantly seek out unexplored terrains and authentic experiences.
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <i class="bi bi-check-circle-fill text-primary-custom mt-1"></i>
+                            <div>
+                                <strong>Conservation:</strong> Committed to protecting wildlife habitats and minimizing our ecological footprint.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1000&q=80" alt="Map Explorer" class="img-fluid rounded-4 shadow-lg" style="max-height: 400px; object-fit: cover; width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expedition Leaders Team -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="text-primary-custom fw-bold text-uppercase">The People Behind Your Journeys</span>
+                <h2 class="font-heading display-6 mt-1">Meet Our Expedition Leaders</h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- Team 1 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-custom text-center p-3">
+                        <div class="card-img-wrapper rounded-circle mx-auto my-3" style="width: 150px; height: 150px;">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80" alt="Alex Vance" class="rounded-circle" style="object-position: top;">
+                        </div>
+                        <h4 class="h5 fw-bold mb-1">Alex Vance</h4>
+                        <small class="text-primary-custom fw-bold mb-2">Founder & Master Hiker</small>
+                        <p class="text-muted small">Summitted Everest, Kilimanjaro, and Mont Blanc. 18+ years of expedition leadership.</p>
+                    </div>
+                </div>
+
+                <!-- Team 2 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-custom text-center p-3">
+                        <div class="card-img-wrapper rounded-circle mx-auto my-3" style="width: 150px; height: 150px;">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" alt="Elena Rostova" class="rounded-circle">
+                        </div>
+                        <h4 class="h5 fw-bold mb-1">Elena Rostova</h4>
+                        <small class="text-primary-custom fw-bold mb-2">Head of Cultural Tours</small>
+                        <p class="text-muted small">Anthropologist fluent in 5 languages specializing in Mediterranean heritage.</p>
+                    </div>
+                </div>
+
+                <!-- Team 3 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-custom text-center p-3">
+                        <div class="card-img-wrapper rounded-circle mx-auto my-3" style="width: 150px; height: 150px;">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80" alt="David Chen" class="rounded-circle" style="object-position: top;">
+                        </div>
+                        <h4 class="h5 fw-bold mb-1">David Chen</h4>
+                        <small class="text-primary-custom fw-bold mb-2">Marine & Safari Expert</small>
+                        <p class="text-muted small">PADI Master Instructor and former wildlife conservation ranger in Kenya.</p>
+                    </div>
+                </div>
+
+                <!-- Team 4 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-custom text-center p-3">
+                        <div class="card-img-wrapper rounded-circle mx-auto my-3" style="width: 150px; height: 150px;">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80" alt="Sarah Jenkins" class="rounded-circle">
+                        </div>
+                        <h4 class="h5 fw-bold mb-1">Sarah Jenkins</h4>
+                        <small class="text-primary-custom fw-bold mb-2">Customer Experience</small>
+                        <p class="text-muted small">Ensures seamless trip logistics, custom itineraries, and 24/7 guest happiness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+        <div class="container">
+            <div class="row g-4 pb-4">
+                <div class="col-lg-4 col-md-6">
+                    <a href="index.html" class="navbar-brand mb-3">
+                        <i class="bi bi-compass-fill"></i>
+                        <span>VentureOut</span>
+                    </a>
+                    <p class="text-muted small mb-3">VentureOut is a premier global tour operator dedicated to crafting unforgettable luxury, eco, and adventure travel experiences.</p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="gallery.html">Destinations</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Support</h5>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ Helpdesk</a></li>
+                        <li><a href="login.html">Login Account</a></li>
+                        <li><a href="signup.html">Register Now</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-title">Weekly Travel Digest</h5>
+                    <p class="text-muted small mb-3">Subscribe to receive exclusive tour discounts, travel guides, and early-bird access.</p>
+                    <form>
+                        <div class="input-group mb-2">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn btn-primary-custom" type="submit">Join</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-top border-secondary pt-4 mt-4 text-center text-muted small">
+                <p class="mb-0">&copy; 2026 VentureOut Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTopBtn" aria-label="Back to Top"><i class="bi bi-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800, once: true });</script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

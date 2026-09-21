@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <title>VentureOut | Explore Premier Travel & Tourism Adventures</title>
+    <meta name="description" content="Discover extraordinary travel experiences, mountain trekking, desert safaris, and luxury beach getaways with VentureOut. Book your dream vacation today.">
+    <meta name="keywords" content="travel, tourism, adventure tours, holiday packages, trekking, luxury cruise, destination guide">
+    <meta name="author" content="VentureOut Travel Ltd.">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <!-- Custom CSS System -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-compass-fill"></i>
+                <span>VentureOut</span>
+            </a>
+            
+            <div class="d-flex align-items-center gap-2 order-lg-3 me-2 me-lg-0">
+                <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light/Dark Mode">
+                    <i class="bi bi-moon-stars-fill"></i>
+                </button>
+                <button class="rtl-toggle-btn" id="rtlToggleBtn" title="Toggle RTL Mode">RTL</button>
+                <a href="signup.html" class="btn btn-primary-custom d-none d-sm-inline-flex">Signup</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Offcanvas Menu -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header border-bottom">
+                    <a href="index.html" class="navbar-brand mb-0 text-decoration-none" id="offcanvasNavbarLabel"><i class="bi bi-compass-fill"></i><span>VentureOut</span></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-none mt-3">
+                        <a href="signup.html" class="btn btn-primary-custom">Signup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" style="background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1920&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content py-5">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-lg-10" data-aos="fade-up" data-aos-duration="1000">
+                    <span class="badge bg-tertiary-custom px-3 py-2 text-white rounded-pill mb-3 fw-bold">
+                        <i class="bi bi-stars me-1"></i> Premier Adventure Travel 2026
+                    </span>
+                    <h1 class="hero-title">Explore The Unexplored World With VentureOut</h1>
+                    <p class="hero-subtitle mx-auto">Immerse yourself in breathtaking landscapes, thrilling expeditions, and curated luxury tours across 70+ countries worldwide.</p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="services.html" class="btn btn-primary-custom btn-lg">
+                            <i class="bi bi-compass"></i> Discover Expeditions
+                        </a>
+                        <a href="contact.html" class="btn btn-outline-light rounded-pill px-4 py-3 fw-semibold">
+                            <i class="bi bi-telephone me-2"></i> Plan Custom Trip
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 2: Stats Counter Section -->
+    <section class="py-5 bg-surface stats-section border-top border-bottom">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-card h-100 d-flex flex-column justify-content-center">
+                        <div class="stat-number" data-target="52" data-suffix="K+">0</div>
+                        <div class="stat-label">Happy Travelers</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-card h-100 d-flex flex-column justify-content-center">
+                        <div class="stat-number" data-target="75" data-suffix="+">0</div>
+                        <div class="stat-label">Destinations</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-card h-100 d-flex flex-column justify-content-center">
+                        <div class="stat-number" data-target="99" data-suffix="%">0</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-card h-100 d-flex flex-column justify-content-center">
+                        <div class="stat-number" data-target="15" data-suffix="+">0</div>
+                        <div class="stat-label">Years of Excellence</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search & Filter Widget -->
+    <div class="container">
+        <div class="search-widget" data-aos="fade-up" data-aos-delay="200">
+            <form class="row g-3 align-items-end">
+                <div class="col-md-3">
+                    <label><i class="bi bi-geo-alt-fill text-primary-custom me-1"></i> Destination</label>
+                    <select class="form-select">
+                        <option selected>Where to go?</option>
+                        <option>Swiss Alps, Switzerland</option>
+                        <option>Santorini, Greece</option>
+                        <option>Maldives Islands</option>
+                        <option>Ha Long Bay, Vietnam</option>
+                        <option>Yosemite, USA</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label><i class="bi bi-collection-fill text-primary-custom me-1"></i> Tour Type</label>
+                    <select class="form-select">
+                        <option selected>All Tour Types</option>
+                        <option>Mountain Trekking</option>
+                        <option>Desert Safaris</option>
+                        <option>Beach Getaways</option>
+                        <option>Cultural Expeditions</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label><i class="bi bi-calendar-event-fill text-primary-custom me-1"></i> Travel Date</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-primary-custom w-100 py-3">
+                        <i class="bi bi-search me-1"></i> Search Tours
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Section 1: Popular Destinations -->
+    <section class="py-5 my-4">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="text-primary-custom fw-bold text-uppercase tracking-wider">Handpicked Experiences</span>
+                <h2 class="font-heading display-6 mt-1">Popular Destinations</h2>
+                <p class="text-muted max-w-600 mx-auto">Explore our top trending destinations loved by over 50,000 global travelers this season.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-custom">
+                        <div class="card-img-wrapper">
+                            <span class="card-badge">$1,299 / person</span>
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Maldives Tropical Island">
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-primary-light text-primary-custom fw-bold">7 Days Trip</span>
+                                <span class="text-warning font-sm fw-bold"><i class="bi bi-star-fill"></i> 4.9 (128)</span>
+                            </div>
+                            <h3 class="card-title-custom">Maldives Azure Paradise</h3>
+                            <p class="text-muted small">Overwater bungalows, crystal lagoon snorkeling, and private beach dining.</p>
+                            <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center">
+                                <span class="card-price">$1,299</span>
+                                <button class="btn btn-sm btn-primary-custom text-nowrap" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-custom">
+                        <div class="card-img-wrapper">
+                            <span class="card-badge">$1,450 / person</span>
+                            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80" alt="Swiss Alps Expedition">
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-primary-light text-primary-custom fw-bold">5 Days Trek</span>
+                                <span class="text-warning font-sm fw-bold"><i class="bi bi-star-fill"></i> 5.0 (94)</span>
+                            </div>
+                            <h3 class="card-title-custom">Swiss Alps Alpine Trek</h3>
+                            <p class="text-muted small">Summit glaciers, ride scenic mountain trains, and relax in alpine chalets.</p>
+                            <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center">
+                                <span class="card-price">$1,450</span>
+                                <button class="btn btn-sm btn-primary-custom text-nowrap" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-custom">
+                        <div class="card-img-wrapper">
+                            <span class="card-badge">$980 / person</span>
+                            <img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=800&q=80" alt="Norwegian Fjords Cruise">
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-primary-light text-primary-custom fw-bold">6 Days Cruise</span>
+                                <span class="text-warning font-sm fw-bold"><i class="bi bi-star-fill"></i> 4.8 (82)</span>
+                            </div>
+                            <h3 class="card-title-custom">Norwegian Fjords Expedition</h3>
+                            <p class="text-muted small">Sail dramatic sea inlets, majestic waterfalls, and aurora borealis views.</p>
+                            <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center">
+                                <span class="card-price">$980</span>
+                                <button class="btn btn-sm btn-primary-custom text-nowrap" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-custom">
+                        <div class="card-img-wrapper">
+                            <span class="card-badge">$850 / person</span>
+                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Yosemite National Park">
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-primary-light text-primary-custom fw-bold">4 Days Tour</span>
+                                <span class="text-warning font-sm fw-bold"><i class="bi bi-star-fill"></i> 4.9 (110)</span>
+                            </div>
+                            <h3 class="card-title-custom">Yosemite Wilderness Safari</h3>
+                            <p class="text-muted small">Granite cliffs, giant sequoias, stargazing, and guided wilderness camping.</p>
+                            <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center">
+                                <span class="card-price">$850</span>
+                                <button class="btn btn-sm btn-primary-custom text-nowrap" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Why Choose Us -->
+    <section class="py-5 bg-surface border-top border-bottom">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="text-primary-custom fw-bold text-uppercase">Core Value & Assurance</span>
+                <h2 class="font-heading display-6 mt-1">Why Travel With VentureOut</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon mx-auto"><i class="bi bi-shield-check"></i></div>
+                        <h4 class="h5 fw-bold mb-2">100% Safe Expeditions</h4>
+                        <p class="text-muted small mb-0">Certified global guides, 24/7 rescue support, and comprehensive travel insurance.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon mx-auto"><i class="bi bi-tag-fill"></i></div>
+                        <h4 class="h5 fw-bold mb-2">Best Price Guarantee</h4>
+                        <p class="text-muted small mb-0">Transparent pricing with zero hidden fees. We match any lower genuine tour price.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon mx-auto"><i class="bi bi-person-hearts"></i></div>
+                        <h4 class="h5 fw-bold mb-2">Local Native Guides</h4>
+                        <p class="text-muted small mb-0">Authentic cultural immersions led by passionate native storytellers and experts.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon mx-auto"><i class="bi bi-headset"></i></div>
+                        <h4 class="h5 fw-bold mb-2">24/7 Concierge Support</h4>
+                        <p class="text-muted small mb-0">Instant assistance before, during, and after your trip via chat, call, or email.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Special Adventure Packages -->
+    <section class="py-5 my-4">
+        <div class="container">
+            <div class="row align-items-center mb-4" data-aos="fade-up">
+                <div class="col-md-8">
+                    <span class="text-primary-custom fw-bold text-uppercase">Limited Edition Packages</span>
+                    <h2 class="font-heading display-6">Featured Seasonal Specials</h2>
+                </div>
+                <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                    <a href="services.html" class="btn btn-outline-custom">View All Services <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-custom">
+                        <div class="card-img-wrapper">
+                            <span class="card-badge bg-danger">20% OFF TODAY</span>
+                            <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80" alt="Santorini Sunset Tour">
+                        </div>
+                        <div class="card-body-custom">
+                            <h3 class="card-title-custom">Santorini Cliffside Retreat</h3>
+                            <p class="text-muted small">White-washed villas, caldera sunset cruise, and wine tasting experience.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top">
+                                <div>
+                                    <span class="text-muted text-decoration-line-through me-2">$1,600</span>
+                                    <span class="card-price">$1,280</span>
+                                </div>
+                                <button class="btn btn-primary-custom btn-sm" data-bs-toggle="modal" data-bs-target="#bookingModal">Reserve</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-custom">
+                        <div class="card-img-wrapper">
+                            <span class="card-badge bg-success">HOT SELLER</span>
+                            <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80" alt="Vietnam Ha Long Bay Kayak">
+                        </div>
+                        <div class="card-body-custom">
+                            <h3 class="card-title-custom">Ha Long Bay Emerald Cruise</h3>
+                            <p class="text-muted small">Kayaking hidden caves, floating village tours, and luxury overnight boat.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top">
+                                <div>
+                                    <span class="card-price">$940</span>
+                                </div>
+                                <button class="btn btn-primary-custom btn-sm" data-bs-toggle="modal" data-bs-target="#bookingModal">Reserve</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-custom">
+                        <div class="card-img-wrapper">
+                            <span class="card-badge bg-tertiary-custom">FEATURED</span>
+                            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80" alt="Banff Lake Louise Trek">
+                        </div>
+                        <div class="card-body-custom">
+                            <h3 class="card-title-custom">Banff & Lake Louise Trek</h3>
+                            <p class="text-muted small">Turquoise glacier lakes, Rocky Mountain wildlife, and lodge stay.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top">
+                                <div>
+                                    <span class="card-price">$1,150</span>
+                                </div>
+                                <button class="btn btn-primary-custom btn-sm" data-bs-toggle="modal" data-bs-target="#bookingModal">Reserve</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Video Experience Showcase -->
+    <section class="py-5 text-white position-relative" style="background: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat fixed;">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative z-2 py-5 text-center" data-aos="fade-up">
+            <button class="btn btn-tertiary-custom rounded-circle p-4 mb-4 pulse-effect" style="width: 80px; height: 80px;" data-bs-toggle="modal" data-bs-target="#videoModal">
+                <i class="bi bi-play-fill display-5"></i>
+            </button>
+            <h2 class="font-heading display-5 text-white mb-3">Feel The Magic Of Real Expeditions</h2>
+            <p class="lead text-light max-w-600 mx-auto mb-4">Watch how VentureOut brings dream destinations to life with passion, safety, and unmatched luxury.</p>
+            <a href="gallery.html" class="btn btn-primary-custom">Explore Full Gallery</a>
+        </div>
+    </section>
+
+
+    <!-- Section 6: Traveler Reviews -->
+    <section class="py-5 my-4">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="text-primary-custom fw-bold text-uppercase">Real Travel Stories</span>
+                <h2 class="font-heading display-6 mt-1">What Our Explorers Say</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-custom h-100 p-4">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary small fst-italic mb-4">"The Swiss Alps trek organized by VentureOut was the absolute highlight of our decade. Everything from chalet bookings to guide support was flawless."</p>
+                        <div class="d-flex align-items-center gap-3 mt-auto">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Sophia Martinez" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                            <div>
+                                <h5 class="h6 mb-0 fw-bold">Sophia Martinez</h5>
+                                <small class="text-muted">Barcelona, Spain</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-custom h-100 p-4">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary small fst-italic mb-4">"Unbelievable experience in the Maldives! The private bungalow and sunset reef diving recommendations were worth every single dollar."</p>
+                        <div class="d-flex align-items-center gap-3 mt-auto">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Michael Chang" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                            <div>
+                                <h5 class="h6 mb-0 fw-bold">Michael Chang</h5>
+                                <small class="text-muted">Toronto, Canada</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-custom h-100 p-4">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary small fst-italic mb-4">"As a solo female traveler, safety was my priority. VentureOut's local guides made me feel completely secure and welcomed throughout Vietnam."</p>
+                        <div class="d-flex align-items-center gap-3 mt-auto">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80" alt="Emma Watson" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                            <div>
+                                <h5 class="h6 mb-0 fw-bold">Emma Watson</h5>
+                                <small class="text-muted">London, UK</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-surface">
+                <div class="modal-header border-bottom">
+                    <h5 class="modal-title font-heading fw-bold" id="bookingModalLabel">Quick Tour Booking</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label font-sm fw-bold">Full Name</label>
+                            <input type="text" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label font-sm fw-bold">Email Address</label>
+                            <input type="email" class="form-control" placeholder="john@example.com" required>
+                        </div>
+                        <div class="row g-2 mb-3">
+                            <div class="col-6">
+                                <label class="form-label font-sm fw-bold">Travelers</label>
+                                <input type="number" class="form-control" value="2" min="1" max="10">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label font-sm fw-bold">Departure Date</label>
+                                <input type="date" class="form-control" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary-custom w-100 py-3 mt-2">Confirm Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark">
+                <div class="modal-body p-0 ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Travel Video Showcase" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+        <div class="container">
+            <div class="row g-4 pb-4">
+                <!-- Column 1: Brand -->
+                <div class="col-lg-4 col-md-6">
+                    <a href="index.html" class="navbar-brand mb-3">
+                        <i class="bi bi-compass-fill"></i>
+                        <span>VentureOut</span>
+                    </a>
+                    <p class="text-muted small mb-3">VentureOut is a premier global tour operator dedicated to crafting unforgettable luxury, eco, and adventure travel experiences.</p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Company Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="gallery.html">Destinations</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Support Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Support</h5>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ Helpdesk</a></li>
+                        <li><a href="login.html">Login Account</a></li>
+                        <li><a href="signup.html">Register Now</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Newsletter Form -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-title">Weekly Travel Digest</h5>
+                    <p class="text-muted small mb-3">Subscribe to receive exclusive tour discounts, travel guides, and early-bird access.</p>
+                    <form>
+                        <div class="input-group mb-2">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn btn-primary-custom" type="submit">Join</button>
+                        </div>
+                        <small class="text-muted">We respect your privacy. Unsubscribe at any time.</small>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-top border-secondary pt-4 mt-4 text-center text-muted small">
+                <p class="mb-0">&copy; 2026 VentureOut Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Back-to-Top Button -->
+    <button class="back-to-top" id="backToTopBtn" aria-label="Back to Top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+    <!-- Custom Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us & Support | VentureOut</title>
+    <meta name="description" content="Get in touch with VentureOut travel specialists. Book custom tour itineraries, ask questions, or call our 24/7 global support line.">
+    <meta name="keywords" content="contact ventureout, travel agent support, tour booking inquiry, travel office location">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <!-- Custom CSS System -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-compass-fill"></i>
+                <span>VentureOut</span>
+            </a>
+            
+            <div class="d-flex align-items-center gap-2 order-lg-3 me-2 me-lg-0">
+                <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light/Dark Mode">
+                    <i class="bi bi-moon-stars-fill"></i>
+                </button>
+                <button class="rtl-toggle-btn" id="rtlToggleBtn" title="Toggle RTL Mode">RTL</button>
+                <a href="signup.html" class="btn btn-primary-custom d-none d-sm-inline-flex">Signup</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Offcanvas Menu -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header border-bottom">
+                    <a href="index.html" class="navbar-brand mb-0 text-decoration-none" id="offcanvasNavbarLabel"><i class="bi bi-compass-fill"></i><span>VentureOut</span></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-none mt-3">
+                        <a href="signup.html" class="btn btn-primary-custom">Signup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header Banner -->
+    <section class="py-5 bg-secondary-custom text-white text-center position-relative" style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.4) 0%, rgba(13, 148, 136, 0.4) 100%), url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;">
+        <div class="container py-4">
+            <h1 class="font-heading display-4 text-white">Contact Our Adventure Team</h1>
+            <p class="lead max-w-600 mx-auto text-light">We are here to answer your questions and plan your perfect custom journey.</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white opacity-75">Home</a></li>
+                    <li class="breadcrumb-item active text-tertiary-custom" aria-current="page">Contact</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Contact Info Cards -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-box text-center h-100 p-4">
+                        <div class="feature-icon mx-auto"><i class="bi bi-geo-alt-fill"></i></div>
+                        <h4 class="h5 fw-bold mb-2">Headquarters</h4>
+                        <p class="text-muted small mb-0">742 Alpine Summit Blvd, Zurich, Switzerland</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box text-center h-100 p-4">
+                        <div class="feature-icon mx-auto"><i class="bi bi-telephone-fill"></i></div>
+                        <h4 class="h5 fw-bold mb-2">24/7 Hotline</h4>
+                        <p class="text-muted small mb-0">+1 (800) 458-9283<br>+41 (44) 987-6543</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-box text-center h-100 p-4">
+                        <div class="feature-icon mx-auto"><i class="bi bi-envelope-fill"></i></div>
+                        <h4 class="h5 fw-bold mb-2">Email Support</h4>
+                        <p class="text-muted small mb-0">support@ventureout.com<br>expeditions@ventureout.com</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box text-center h-100 p-4">
+                        <div class="feature-icon mx-auto"><i class="bi bi-share-fill"></i></div>
+                        <h4 class="h5 fw-bold mb-2">Social Media</h4>
+                        <div class="d-flex gap-2 justify-content-center mt-2">
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form + Map Section -->
+            <div class="row g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="card-custom p-4 p-md-5">
+                        <h3 class="font-heading h4 fw-bold mb-3">Send Us A Message</h3>
+                        <p class="text-muted small mb-4">Fill out the inquiry form below and our travel consultants will respond within 2 hours.</p>
+
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label font-sm fw-bold">Your Full Name</label>
+                                <input type="text" class="form-control" placeholder="Alex Morgan" required>
+                            </div>
+                            <div class="row g-3 mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label font-sm fw-bold">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="alex@domain.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label font-sm fw-bold">Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="+1 (555) 000-0000">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label font-sm fw-bold">Interested Destination</label>
+                                <select class="form-select">
+                                    <option selected>Swiss Alps Trek</option>
+                                    <option>Maldives Paradise</option>
+                                    <option>Sahara Desert Safari</option>
+                                    <option>Ha Long Bay Cruise</option>
+                                    <option>Other Custom Location</option>
+                                </select>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label font-sm fw-bold">Message Details</label>
+                                <textarea class="form-control" rows="4" placeholder="Tell us about your dream trip, preferred dates, and group size..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary-custom w-100 py-3">Send Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="card-custom overflow-hidden h-100">
+                        <div class="p-3 bg-surface border-bottom fw-bold">
+                            <i class="bi bi-map-fill text-primary-custom me-2"></i> Our Location Map
+                        </div>
+                        <div class="ratio ratio-1x1 h-100">
+                            <iframe src="https://maps.google.com/maps?q=Swiss%20Alps&t=&z=11&ie=UTF8&iwloc=&output=embed" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+        <div class="container">
+            <div class="row g-4 pb-4">
+                <div class="col-lg-4 col-md-6">
+                    <a href="index.html" class="navbar-brand mb-3">
+                        <i class="bi bi-compass-fill"></i>
+                        <span>VentureOut</span>
+                    </a>
+                    <p class="text-muted small mb-3">VentureOut is a premier global tour operator dedicated to crafting unforgettable luxury, eco, and adventure travel experiences.</p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="gallery.html">Destinations</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Support</h5>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ Helpdesk</a></li>
+                        <li><a href="login.html">Login Account</a></li>
+                        <li><a href="signup.html">Register Now</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-title">Weekly Travel Digest</h5>
+                    <p class="text-muted small mb-3">Subscribe to receive exclusive tour discounts, travel guides, and early-bird access.</p>
+                    <form>
+                        <div class="input-group mb-2">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn btn-primary-custom" type="submit">Join</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-top border-secondary pt-4 mt-4 text-center text-muted small">
+                <p class="mb-0">&copy; 2026 VentureOut Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTopBtn" aria-label="Back to Top"><i class="bi bi-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800, once: true });</script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

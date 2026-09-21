@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | VentureOut Travel</title>
+    <meta name="description" content="Join the VentureOut travel community to unlock exclusive member discounts, trip tracking, and early access to expeditions.">
+    <meta name="keywords" content="ventureout signup, register travel account, create member profile">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <!-- Custom CSS System -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+
+
+    <!-- Main Auth Form Section -->
+    <main class="flex-grow-1 d-flex align-items-center py-5" style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.4) 0%, rgba(13, 148, 136, 0.4) 100%), url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="auth-card p-4 p-md-5 shadow-lg border-0 bg-surface">
+                        <div class="text-center mb-4">
+                            <a class="navbar-brand d-inline-block mb-3 text-dark text-decoration-none" href="index.html">
+                                <i class="bi bi-compass-fill text-primary-custom fs-1 align-middle"></i>
+                                <span class="fs-2 fw-bold align-middle ms-1">VentureOut</span>
+                            </a>
+                            <h4 class="font-heading fw-bold mb-1">Create Account</h4>
+                            <p class="text-muted small">Join 50,000+ explorers worldwide</p>
+                        </div>
+
+                        <form action="index.html">
+                            <div class="mb-3">
+                                <label class="form-label font-sm fw-bold">Full Name</label>
+                                <input type="text" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label font-sm fw-bold">Email Address</label>
+                                <input type="email" class="form-control" placeholder="name@domain.com" required>
+                            </div>
+                            <div class="row g-2 mb-3">
+                                <div class="col-6">
+                                    <label class="form-label font-sm fw-bold">Password</label>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" id="signupPassword" placeholder="••••••••" required>
+                                        <button class="btn btn-outline-secondary border toggle-password" type="button" data-target="#signupPassword">
+                                            <i class="bi bi-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label font-sm fw-bold">Confirm</label>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" id="signupConfirm" placeholder="••••••••" required>
+                                        <button class="btn btn-outline-secondary border toggle-password" type="button" data-target="#signupConfirm">
+                                            <i class="bi bi-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="privacyAgree" required>
+                                <label class="form-check-label text-muted small" for="privacyAgree">I agree to the <a href="privacy.html" class="text-primary-custom">Privacy Policy</a></label>
+                            </div>
+                            <button type="submit" class="btn btn-primary-custom w-100 py-3 mb-3">Complete Registration</button>
+
+                            <div class="position-relative text-center my-4 py-2">
+                                <hr>
+                                <span class="position-absolute top-50 start-50 translate-middle bg-surface px-3 text-muted small">OR REGISTER WITH</span>
+                            </div>
+
+                            <!-- Social Registration -->
+                            <div class="d-grid gap-2 mb-4">
+                                <button type="button" class="btn btn-outline-custom w-100 py-2 btn-sm"><i class="bi bi-google text-danger me-1"></i> Google</button>
+                                <button type="button" class="btn btn-outline-custom w-100 py-2 btn-sm"><i class="bi bi-facebook text-primary me-1"></i> Facebook</button>
+                                <button type="button" class="btn btn-outline-custom w-100 py-2 btn-sm"><i class="bi bi-apple me-1"></i> Apple</button>
+                            </div>
+                            <p class="text-center text-muted small mb-0">Already registered? <a href="login.html" class="fw-bold text-primary-custom">Sign In Here</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
