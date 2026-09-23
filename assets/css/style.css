@@ -371,6 +371,23 @@ a:hover {
     box-shadow: var(--shadow-sm);
 }
 
+/* Auth Card Top-Right Controls (Theme + RTL Toggle) */
+.auth-card-controls {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+}
+
+[dir="rtl"] .auth-card-controls {
+    right: auto;
+    left: 16px;
+}
+
+
 .card-custom {
     background: var(--bg-surface);
     border-radius: var(--radius-md);
